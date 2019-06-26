@@ -1,2 +1,85 @@
 \section{Auswertung}
 \label{sec:Auswertung}
+
+Zur Untersuchung der Charakteristik des Geiger-Müller-Zählrohres werden die Daten aus \autoref{tab:charak} betrachtet.
+
+\input{../content/charak.tex}
+
+Zunächst wird in einem Plot $\frac{N}{t}$ gegen $U$ aufgetragen. Dabei ist $t = 150 \, \symup{s}$.
+Anschließend wird durch den linearen Teil, welcher hier der gesamte Bereich ist, eine Ausgleichsgerade der Form
+
+\begin{equation}
+    \frac{N}{t} = a U + b
+\end{equation}
+
+gelegt.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.95\textwidth]{build/plot_charak.pdf}
+  \caption{Plot und Fit von $\frac{N}{t}$ gegen $U$ zur Bestimmung der Charakteristik des Zählrohres.}
+  \label{fig:charak}
+\end{figure}
+
+Der somit entstehende Plot ist in \autoref{fig:charak} zu sehen.
+Mittels des Python 3.7.0 Paketes Curve Fit ergeben sich zu Koeffizienten zu
+
+\begin{align*}
+    a = (4,789 \pm 0,001) \cdot 10^{-3} \, \frac{1}{\symup{Vs}}
+    b = (72,3 \pm 0,4) \, \frac{1}{\symup{s}}.
+\end{align*}
+
+Zur Bestimmung der Steigung des Plateaus wird die Formel
+
+\begin{equation}
+    s = \frac{\dot{n}_+ - \dot{n}_-}{\dot{n}_m}
+\end{equation}
+
+genutzt, wobei $\dot{n}_i = a \cdot U_i + b$ die Zählraten zu den jeweiligen Spannung sind.
+Es wird $\dot{n}_m$ bei $U_m = 500$ V und $\dot{n}_\pm$ an jeweils $U_\pm = (500 \pm 50)$ V, um so eine Normierung auf $\frac{\%}{100\symup{V}}$ zu erhalten.
+
+Damit ergibt sich für die Steigung
+
+\begin{center}
+    $s = (0,641 \pm 0,003)$ $\frac{\%}{100\symup{V}}$,
+\end{center}
+
+wobei sich der Fehler nach Gauß über
+
+\begin{equation}
+    \Delta s^2 = \bigg( \dfrac{b\left(2 U_m - U_- -U_+ \right)}{\left(a U_m + b \right)^2} \bigg)^2 \cdot \Delta a^2 + \bigg( \dfrac{a\left(2U_m - U_- - U_+ \right)}{\left(a U_m + b \right)^2} \bigg)^2 \cdot \Delta b^2
+\end{equation}
+
+berechnet.
+
+%TODO Oszilloskop Bestimmung
+
+\input{../content/tot.tex}
+
+%TODO: Gleichung
+Zur Bestimmung der Totzeit des Rohres werden die Daten aus \autoref{tab:tot} verwendet.
+Dabei beträgt die Messdauer $t = 60$ s.
+Gemäß GLEICHUNG wird die Totzeit als
+
+\begin{center}
+    $T = (1,1 \pm 0,3) \cdot 10^(-4)$ s.
+\end{center}
+
+bestimmt. Dabei ist der Fehler nach Gauß über
+
+\begin{equation}
+    \Delta T^2 = \bigg( \dfrac{N_{1+2} - N_2}{2 N_2 N_1^2} \bigg)^2 \cdot \Delta N_1^2 + \bigg( \dfrac{N_{1+2} - N_1}{2 N_1 N_2^2}  \bigg)^2 \cdot \Delta N_2^2 + \bigg( \dfrac{1}{2 N_1 N_2} \bigg)^2 \cdot \Delta N_{1+2}^2
+\end{equation}
+
+gegeben.
+
+%TODO: Gleichungsreferenz oder Gleichung selbst schreiben
+Über die Stromstärken in \autoref{tab:charak} lassen sich nach GLEICHUNG die Ladungen pro Ion berechnen, wobei das Zeitintervall $t = 150 \, \symup{s}$ beträgt.
+Die entsprechend entstehenden Werte sind in \autoref{tab:ladung} zu finden.
+Dabei berechnen sich die jeweiligen Fehler nach Gauß über
+
+\begin{equation}
+    \Delta (\Delta Q) = \bigg( \frac{I_i \cdot t}{Z_i^2} \bigg) \cdot \Delta Z_i.
+\end{equation}
+
+\input{../content/ladung.tex}
