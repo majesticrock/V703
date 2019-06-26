@@ -25,7 +25,7 @@ Der somit entstehende Plot ist in \autoref{fig:charak} zu sehen.
 Mittels des Python 3.7.0 Paketes Curve Fit ergeben sich zu Koeffizienten zu
 
 \begin{align*}
-    a = (4,789 \pm 0,001) \cdot 10^{-3} \, \frac{1}{\symup{Vs}}
+    a = (4,789 \pm 0,001) \cdot 10^{-3} \, \frac{1}{\symup{Vs}}\\
     b = (72,3 \pm 0,4) \, \frac{1}{\symup{s}}.
 \end{align*}
 
@@ -62,19 +62,43 @@ Dabei beträgt die Messdauer $t = 60$ s.
 Gemäß GLEICHUNG wird die Totzeit als
 
 \begin{center}
-    $T = (1,1 \pm 0,3) \cdot 10^(-4)$ s.
+    $T_\text{Doppel} = (1,1 \pm 0,3) \cdot 10^{-4}$ s.
 \end{center}
 
 bestimmt. Dabei ist der Fehler nach Gauß über
 
 \begin{equation}
-    \Delta T^2 = \bigg( \dfrac{N_{1+2} - N_2}{2 N_2 N_1^2} \bigg)^2 \cdot \Delta N_1^2 + \bigg( \dfrac{N_{1+2} - N_1}{2 N_1 N_2^2}  \bigg)^2 \cdot \Delta N_2^2 + \bigg( \dfrac{1}{2 N_1 N_2} \bigg)^2 \cdot \Delta N_{1+2}^2
+    \Delta T_\text{Doppel}^2 = \bigg( \dfrac{N_{1+2} - N_2}{2 N_2 N_1^2} \bigg)^2 \cdot \Delta N_1^2 + \bigg( \dfrac{N_{1+2} - N_1}{2 N_1 N_2^2}  \bigg)^2 \cdot \Delta N_2^2 + \bigg( \dfrac{1}{2 N_1 N_2} \bigg)^2 \cdot \Delta N_{1+2}^2
 \end{equation}
 
 gegeben.
 
-%TODO: Gleichungsreferenz oder Gleichung selbst schreiben
-Über die Stromstärken in \autoref{tab:charak} lassen sich nach GLEICHUNG die Ladungen pro Ion berechnen, wobei das Zeitintervall $t = 150 \, \symup{s}$ beträgt.
+\begin{figure}
+  \centering
+  \includegraphics[width=0.95\textwidth]{content/osz.png}
+  \caption{Momentaufnahme des Oszilloskopes zur Bestimmung der Totzeit der Geiger-Müller-Zählrohres.}
+  \label{fig:osz}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.95\textwidth]{content/osz_m_skizze.png}
+  \caption{Momentaufnahme mit eingezeichneter Skizze des Oszilloskopes zur Bestimmung der Totzeit der Geiger-Müller-Zählrohres.}
+  \label{fig:osz-m-skizze}
+\end{figure}
+
+Des Weiteren wird die Totzeit mittels des Oszilloskopes bestimmt. In \autoref{fig:osz} ist die Momentaufnahme zu sehen, bei der der Nebenpeak am weitesten links zu bemerken ist.
+Durch Fortsetzung der Linien, wie in \autoref{fig:THEORIE} (TODO Referenz auf Theorie) zu sehen, wird die Totzeit zu
+
+\begin{center}
+    $T_\text{Osz} = (30 \pm 10)$ µs
+\end{center}
+
+bestimmt.
+
+%TODO: Gleichungsreferenz oder Gleichung selbst schreiben 
+Über die Stromstärken in \autoref{tab:charak} lassen sich nach GLEICHUNG die Ladungen pro Ion berechnen, 
+wobei das Zeitintervall $t = 150 \, \symup{s}$ beträgt.
 Die entsprechend entstehenden Werte sind in \autoref{tab:ladung} zu finden.
 Dabei berechnen sich die jeweiligen Fehler nach Gauß über
 
