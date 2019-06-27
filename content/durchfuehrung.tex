@@ -1,2 +1,32 @@
 \section{Durchführung}
 \label{sec:Durchführung}
+Für den Versuch wird der in \autoref{fig:skizze} dargestellte Aufbau verwendet. Darin wird das Zählrohr über eine Spannungsquelle
+versorgt. Wenn ein Impuls gemessen wird, fließt die gesammelte Ladung über einen Widerstand ab und wird durch einen Kondensator
+ausgekoppelt. Der Impuls wird dann entweder verstärkt an einen Zähler geleitet und dort gezählt oder an einen Oszillographen, an dem
+in einem späteren Versuchsteil die Totzeit abgelesen werden kann. Bei diesem Versuch wird das Element $\ce{^{204}Tl}$ verwendet. Dieses
+wird vor dem Geiger-Müller-Zählrohr in einer Apparatur fixiert.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{content/skizze.png}
+    \caption{Skizze des Versuchaufbaues.}
+    \label{fig:skizze}
+\end{figure}
+
+Zunächst wird die Charakteristik des Geiger-Müller-Zählrohres untersucht. Dazu wird die Zählrate des Zählrohres bei verschiedenen
+angelegten Spannungen, im Bereich von 320 V bis 680 V in 20 V- Schritten, gemessen. Zusätzlich wird die Stromstärke, wenn möglich, am
+Zählrohr abgelesen und ebenfalls mit den zugehörigen Spannungen notiert. Dies ist erforderlich um die vom Zählrohr pro Teilchen
+freigesetzte Ladungsmenge zu bestimmen.
+
+Im zweiten Versuchsteil wird die Totzeit des Zählrohres bestimmt. Dabei muss dafür gesorgt sein, dass eine
+hohe Strahlintensität in das Zählrohr eintritt, das heißt es wird eine Spannung von 500 V verwendet.
+Die Bestimmung wird über zwei verschiedene Methoden durchgeführt. 
+Zum Einen wird die Totzeit mithilfe des Oszillographen bestimmt. Wenn die Zeitablenkung durch die Anstiegsflanke des Zählrohres
+getriggert wird, lässt sich auf dem Schirm die Totzeit ablesen. Zur Verbesserung des Messergebnisses wird der Bildschirm einige Zeit
+abgefilmt um das Ablesen von diesem zu erleichtern. Zum Anderen wird die sogenannte Zwei-Quellen-Methode verwendet. Hierbei wird 
+zunächst die Zählrate der Quelle 60 s lang gemessen. Anschließend wird eine zweite Quelle im selben Abstand vom Zählrohr positioniert
+und es wird die Zählrate beider Quellen zusammen über 60 s aufgenommen. Hier ist die zweite Quelle ebenfalls $\ce{^{204}Tl}$.
+Als letztes wird die Zählrate der zweiten Quelle alleine über den selben Zeitraum gemessen. Die Totzeit ergibt sich dann über
+\begin{equation}
+\label{eqn:totzeit}
+T \approx \frac{N_1 + N_2 - N_{1+2}}{"\cdot N_1 N_2}.
+\end{equation}
