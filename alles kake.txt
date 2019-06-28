@@ -30,3 +30,21 @@ Hey das Kapitel ist in Ordnung!
 durchführung:
 die formel, die du bitte noch in die theorie scheibst, hat ein " drin, muss glaub ich ne 2 sein
 Den rest les ich mir durch, wenn du das korrigiert hast.
+
+
+
+
+
+
+-----------------------------------------
+2.4
+Zwei-Quellen[-]Methode
+Die Strahlintensität ist nicht bei einer Spannung hoch, sondern einfach nur generell hoch
+"Zählrate über den selben Zeitraum N_1+2 aufgenommen"  schieb das N_1+2 mal hinter Zählrate nicht hinter Zeitraum
+Du hast in der Gleichung immer noch " anstelle von 2 stehen
+
+3.
+20 V-Schritten -> du hast da n Leerzeichen zwischen "-" und "Schritten"
+du machst nie n komma vor nem "um", ich weiß man darf das, aber es macht mich traurig :<
+"dass eine hohe Strahlintensität in das Zählrohr eintritt, das heißt es wird eine Spannung von 500 V verwendet" das gleiche was ich in 2.4 schon angemerkt habe
+beschrieb[e]n
