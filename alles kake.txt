@@ -20,7 +20,7 @@ Abbildung 2: "Elektron-Ionenpaare" -> "Elektron-Ion-Paare"
 2.2
 "vergleichsweise langsamer zum Kathodenzylinder benötigen" - merkste selber, ne?
 "währenddessen" -> "dadurch" (du hast ca. 5 worte vorher schon "während")
-"alkoholgas wie bereits erwähnt" - ja da ist eins drin, aber hast du noch nicht erwähnt
+"alkoholgas wie bereits erwähnt" - ja da ist eins drin, aber hast du noch nicht erwähnt, -> doch habe ich
 "Schwingung, wodruch diese zu gering wird" - hört sich so an, als würde die schwingung die elektronen herauslösen
 Abbildung 3: in der caption steht "erholzeit" im fließtext "erholungszeit" bitte einheitlich, außerdem sind da zwei komische punkte in der abbildung, schau mal nach dass du die wegkriegst
 

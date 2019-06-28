@@ -1,0 +1,25 @@
+Auswertung:
+Zunächst werden... kannst vielleicht sagen wie die Größen heißen
+...welcher hier dem gesamten Bereich entspricht (klingt zumindest schöner)
+kannst vielleicht sagen woher die Fehlerbalken kommen, bzw wie du auf die Fehler kommst, also das deltaN
+Tabelle2: zwei Quellen fände ich besser
+Dabei beträgt die Messdauer t = 60s. Habe ich auch schon in der Durchführung erwähnt
+Abbildung7: [des] Geiger-Müller-Zählrohres
+Du gibst die Totzeit einmal mit 10^-4 sekunden und einmal microsekunden an; einheitlich wäre ok
+schöne Paintkünste^^
+Das Klingt in Abbildung 8 so als würde das Oszilloskop skizziert
+Sag vielleicht irgendwo dass Z die Zählrate darstellen soll, weil vorher war es immer N
+Letzte fehlerformel: Delta(Delta Q)?
+Tabelle3: großer Abstand zwischen plusminus und Fehler bei delta Q
+
+Diskussion:
+ich glaube das verstehe ich falsch: aber ist die Standardabweichung nicht 0,3%?
+kannst vielleicht schreiben, dass die Messwerte eigentlich nicht so linear über den ganzen Bereich sein sollteb
+Es heißt Zwei-Quellen-Methode nicht Doppelprobenmethode
+Die Skalierung am Oszilloskop ist auch ziemlich müll zum Werte ablesen
+Des Weiteren muss mit (...) du hast es ja nicht versucht sondern gemacht
+Die Methode mit zwei [Quellen] und lass das "jedoch" weg; 
+->der Satz klingt allgemein komisch: dem statistischen Fehler, welcher aufgrund der einfachen und kurzen Messung hoch ist. Ich meine: welcher statistische Fehler?
+Lass "Jedoch" vor allem weg, weil es jetzt wieder auftaucht
+Du magst "JEDOCH" wirklich gerne oder? Kommt zwei Sätze später schon wieder(, und lediglich auch)
+Des Weiteren sind die beobachteten (...) Spannungen [] unterschiedliche Stromstärken [sinnvoll] angegeben werden [können].
