@@ -1,0 +1,32 @@
+Zielsetzung:
+"Desselbigen" - so sage Er mir doch, wie es im Jahre 1534 doch war - "desselben"
+"zu bestimmen" zweimal im selben satz... und nach "ist es" würd ich ja n Komma setzen, aber nach Duden ist das egal ob es da ist oder nicht
+
+2.1
+"dabei tritt ein ionisiertes alpha/beta teilchen" - um nein, die teilchen sind geladen nicht ionisiert
+"und löst elek impuls aus" - uhm eher ionisiert gasteilchen - die elektronen, die dann zum draht gehen lösen da einen elek Impuls aus
+    später erwähnst du auch dass das teilchen das gas ionisiert...
+"zwischen de[m]"
+Abbildung 1: "Querschnitt durch ein rohr" -> "querschnitt eines rohres"
+"El[e]ktronen"
+"liegt noch bei höheren" -> "liegt bei noch höheren"
+direkt danach: ganz schön oft "Elektronenlawinen"
+"Dies kommt dadurch zustande, dass während der primären Elektronenlawine Photonen im UV-Bereich, welche sich auch senkrecht zum elektrischen Feld bewegen können, da sie Ladungsfrei sind." Da fehlt n Prädikat und ladungsfrei wird klein geschrieben
+"Auslöseb[e]reich"
+" In diesem Bereich lässt sich das
+Zählrohr allerdings nur noch zur Intensitätsmessung." [nutzen]
+Abbildung 2: "Elektron-Ionenpaare" -> "Elektron-Ion-Paare"
+
+2.2
+"vergleichsweise langsamer zum Kathodenzylinder benötigen" - merkste selber, ne?
+"währenddessen" -> "dadurch" (du hast ca. 5 worte vorher schon "während")
+"alkoholgas wie bereits erwähnt" - ja da ist eins drin, aber hast du noch nicht erwähnt
+"Schwingung, wodruch diese zu gering wird" - hört sich so an, als würde die schwingung die elektronen herauslösen
+Abbildung 3: in der caption steht "erholzeit" im fließtext "erholungszeit" bitte einheitlich, außerdem sind da zwei komische punkte in der abbildung, schau mal nach dass du die wegkriegst
+
+2.3
+Hey das Kapitel ist in Ordnung!
+
+durchführung:
+die formel, die du bitte noch in die theorie scheibst, hat ein " drin, muss glaub ich ne 2 sein
+Den rest les ich mir durch, wenn du das korrigiert hast.

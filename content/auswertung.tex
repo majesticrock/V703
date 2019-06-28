@@ -25,8 +25,8 @@ Der somit entstehende Plot ist in \autoref{fig:charak} zu sehen.
 Mittels des Python 3.7.0 Paketes Curve Fit ergeben sich zu Koeffizienten zu
 
 \begin{align*}
-    a = (4,789 \pm 0,001) \cdot 10^{-3} \, \frac{1}{\symup{Vs}}\\
-    b = (72,3 \pm 0,4) \, \frac{1}{\symup{s}}.
+    a &= (4,789 \pm 0,001) \cdot 10^{-3} \, \frac{1}{\symup{Vs}}\\
+    b &= (72,3 \pm 0,4) \, \frac{1}{\symup{s}}.
 \end{align*}
 
 Zur Bestimmung der Steigung des Plateaus wird die Formel
@@ -36,7 +36,7 @@ Zur Bestimmung der Steigung des Plateaus wird die Formel
 \end{equation}
 
 genutzt, wobei $\dot{n}_i = a \cdot U_i + b$ die Zählraten zu den jeweiligen Spannung sind.
-Es wird $\dot{n}_m$ bei $U_m = 500$ V und $\dot{n}_\pm$ an jeweils $U_\pm = (500 \pm 50)$ V, um so eine Normierung auf $\frac{\%}{100\symup{V}}$ zu erhalten.
+Es wird $\dot{n}_m$ bei $U_m = 500$ V und $\dot{n}_\pm$ an jeweils $U_\pm = (500 \pm 50)$ V, um so eine Normierung auf $\frac{100 \%}{100\symup{V}}$ zu erhalten.
 
 Damit ergibt sich für die Steigung
 
@@ -54,10 +54,10 @@ berechnet.
 
 \input{../content/tot.tex}
 
-%TODO: Gleichung
+
 Zur Bestimmung der Totzeit des Rohres werden die Daten aus \autoref{tab:tot} verwendet.
 Dabei beträgt die Messdauer $t = 60$ s.
-Gemäß GLEICHUNG wird die Totzeit als
+Gemäß Gleichung \eqref{eqn:totzeit} wird die Totzeit als
 
 \begin{center}
     $T_\text{Doppel} = (1,1 \pm 0,3) \cdot 10^{-4}$ s.
